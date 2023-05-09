@@ -18,9 +18,9 @@ Follow the steps below to get the Django project up and running:
    cd <repository-directory>
    
 2. Create in root directory .env.bat file with next context:
- 
-    OPENAI_KEY=OpenAI API key
-  
+    ```bash
+    OPENAI_KEY=<OpenAI API key>
+    ```
 3. Build and start the Docker containers:
   ```bash
    docker-compose up --build
